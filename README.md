@@ -1,4 +1,4 @@
-# Training a charRNN and using the model in ml5js
+# Training a charRNN and using the model in ml5js (hastily updated to work with TF 2.5)
 
 Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language models in Python using Tensorflow and modified to work with [tensorflow.js](https://js.tensorflow.org/) and [ml5js](https://ml5js.org/)
 
@@ -6,7 +6,7 @@ Based on [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorfl
 
 ## Requirements
 
-- Set up a python environment with tensorflow installed. This repo is compatible with `python 3.6.x` and `tensorflow 1.x` only! This [video tutorial about Python virtualenv](https://youtu.be/nnhjvHYRsmM) may help.
+- <s>Set up a python environment with tensorflow installed. This repo is compatible with `python 3.6.x` and `tensorflow 1.x` only! This [video tutorial about Python virtualenv](https://youtu.be/nnhjvHYRsmM) may help.</s>
 
 ## Usage
 
