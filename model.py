@@ -77,7 +77,7 @@ class Model():
         grads, _ = tf.clip_by_global_norm(tf.gradients(ys=self.cost, xs=tvars),
                 args.grad_clip)
         with tf.compat.v1.name_scope('optimizer'):
-            optimizer = tf.train.AdamOptimizer(self.lr)
+            optimizer = tf.compat.v1.train.AdamOptimizer(self.lr)
         self.train_op = optimizer.apply_gradients(zip(grads, tvars))
 
         # instrument tensorboard
