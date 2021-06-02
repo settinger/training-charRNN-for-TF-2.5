@@ -4,6 +4,8 @@ from seq2seq_bodge import rnn_decoder, sequence_loss_by_example
 
 import numpy as np
 
+tf.compat.v1.disable_eager_execution()
+
 class Model():
     def __init__(self, args, training=True):
         self.args = args
